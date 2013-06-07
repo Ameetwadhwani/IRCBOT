@@ -1,8 +1,9 @@
+require 'twitter'
 Twitter.configure do |config|
-  config.consumer_key = 7xKxgdC3pHcpHNyAV3BJg
-  config.consumer_secret = rwKC1IIM0t5xqKqZd41YVdwKmnV7tL2yQ70z3J8ugSc
-  config.oauth_token = 1491301814-53EGuYCKdNMpvt7BgoqDLZILfLN1aDsBKXZ4Tbv
-  config.oauth_token_secret = 1vDjxwgKNHNs988emcz9E3AYaH1YLEqzJb2avkb3I
+  config.consumer_key = 'gYaFjpHlq0hBaeALWxifQ'
+  config.consumer_secret = '0ehCUKjdsPx2EKyDGtTDMezX370IbWn4s1jbEfA0Hs'	
+  config.oauth_token = '1491301814-iVUWUMdwQAsRBWfuf3LKTB6iyCFAeyV2XDJbi5K'
+  config.oauth_token_secret = 'AZcp52xqXNYUMydamnj0qQOn12lUdHJKsXWZplgDsU'
 end
 
 Twitter.update("I'm telling on you!")
